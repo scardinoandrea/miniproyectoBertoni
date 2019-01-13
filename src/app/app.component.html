@@ -12,7 +12,7 @@
     <p style="grid-column-start: 3; grid-row-start: 2;">{{item.tags}}</p>
     <div class="buttons" style="display:flex">
       <button class="button">edit</button>
-      <button class="button">delete</button>
+      <button class="button" (click)="delete(item)">delete</button>
     </div>
   </div>
 </div>
@@ -20,3 +20,4 @@
 <div class="out">
     <button class="floating-button">+</button>
 </div>
+

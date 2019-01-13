@@ -15,20 +15,27 @@ export class DatabaseService {
     
   } 
 
-  get(): Pet[] {
+  getPet(): Pet[] {
     return this.pets;
   }
+
+  getCategory(): Category[] {
+    return this.categories;
+  }
+
 
   create(form) {
 
   }
 
-  edit() {
+  edit(id) {
 
   }
 
-  delete() {
-
+  deletePet(object){
+    var index = this.pets.indexOf(object);
+    this.pets.splice(index, 1); 
+    return this.pets;
   }
 
   categories: Category[] = [{

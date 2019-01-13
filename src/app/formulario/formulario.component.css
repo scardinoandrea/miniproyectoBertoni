@@ -1,0 +1,18 @@
+.form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.form-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  box-shadow: 1px 1px #888888;
+  width: 470px;
+  min-height: 20vh;
+  margin-bottom: 1pc;
+  border-radius: 4px;
+  padding: 1pc;
+}

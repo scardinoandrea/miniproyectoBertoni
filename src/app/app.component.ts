@@ -11,6 +11,10 @@ export class AppComponent {
   items:any;
 
   constructor(private db: DatabaseService){
-    this.items=db.get();
+    this.items=db.getPet();
+  }
+
+  delete(item){
+    this.db.deletePet(item);
   }
 }
