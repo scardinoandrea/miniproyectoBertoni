@@ -1,0 +1,74 @@
+.list {
+  display: flex;
+  justify-content: center;
+
+}
+
+.list-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #fafafa;
+  border: 1px solid #fafafa;
+  box-shadow: 1px 1px #888888;
+  width: 470px;
+  min-height: 20vh;
+  margin-bottom: 1pc;
+  border-radius: 4px;
+  padding: 1pc;
+}
+
+.list-box:hover {
+  background-color: #cac7c7;
+  border: 1px solid #cac7c7;
+}
+
+.list-box-image {
+  grid-column-start: 1;
+
+}
+
+.list-box-data {
+  grid-column-start: 2;
+}
+
+.list-box-title {
+  color: #01579b;
+  font-weight: bold;
+  margin-top: 0 !important;
+  font-size: large;
+  font-style: italic;
+}
+
+.button {
+  grid-column-start: 3;
+  background-color: #81c784;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  margin: 2px 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-weight: bold;
+  width: 50px;
+  height: 50px;
+}
+
+.floating-button {
+  background-color: #81c784;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  margin: 2px 2px;
+  border-radius: 50%;
+  position: fixed;
+  cursor: pointer;
+  z-index: 99;
+  bottom: 20px;
+  right: 30px;
+  font-weight: bold;
+}

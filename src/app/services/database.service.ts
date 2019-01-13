@@ -110,7 +110,7 @@ export class DatabaseService {
         "nombre": "Fagaceae"
       },
       "nombre": "Marcella",
-      "fotoUrl": ["http://www.ensenadanoticias.com/wp-content/uploads/2018/11/test.png","http://www.ensenadanoticias.com/wp-content/uploads/2018/11/test.png" , "http://www.ensenadanoticias.com/wp-content/uploads/2018/11/test.png" ],
+      "fotoUrl": ["https://www.compasspoint.org/sites/default/files/images/test.png","http://www.ensenadanoticias.com/wp-content/uploads/2018/11/test.png" , "http://www.ensenadanoticias.com/wp-content/uploads/2018/11/test.png" ],
       "tags": ["t1","t2","t3","t4","t5"]
     },
     {
